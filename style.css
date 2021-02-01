@@ -197,9 +197,9 @@ body{
         min-height: 100vh;
     }
     .header__title{
-        letter-spacing: 2px;
-        line-height: 50px;
-        max-width:80%;
+        letter-spacing: 0;
+        line-height: 40px;
+        font-size: 18px;
     }
     /* Services Section */
     .services__description{
@@ -265,6 +265,9 @@ body{
        margin:0 auto;
    }
    /* About */
+   .about__wrapper{
+       margin: 3rem 0;
+   }
    .about__description{
       text-align: center; 
    }
@@ -404,6 +407,10 @@ body{
     .we{
         margin: 6rem 0;
     } 
+    .we__wrapper{
+       margin: 2rem 0;
+       padding:0 1.2rem;
+    }
     .we__title{
         width: 320px;
     }
