@@ -246,8 +246,6 @@ body{
         line-height: 33px;
         text-align: center;
         margin:2rem auto 2rem auto;
-       
-        
     }
    .title--onborder{
        font-size: 23px;
@@ -374,10 +372,12 @@ body{
     /* General  */
     .center{
         width:50%;
+        margin:6rem 0;
     }
     .title{
        font:700 33.93px/40.72px var(--font-family);
     }
+   
     .description{
        font:300 16px/25.89px var(--font-family);
        max-width: 553px;
@@ -387,9 +387,11 @@ body{
        font:400 25px/25px var(--font-family);
        margin-bottom: 2rem;
     }
+  
     .title--onborder{
-       margin-top: -4.3rem;
-       width:250px; 
+        margin-top: -4.3rem;
+        max-width: 310px;
+        background-color: var(--white);
     }
    
     /* Header Section */
@@ -403,6 +405,14 @@ body{
        line-height: 70px;
        font-size: 36px;
     }
+    .about__wrapper{
+        margin: 6rem 0;
+    }
+    /* Services Section */
+    .services__title{
+        background-color: #9DA9C0;
+    }
+    
     /* We Section */
     .we{
         margin: 6rem 0;
@@ -412,7 +422,7 @@ body{
        padding:0 1.2rem;
     }
     .we__title{
-        width: 320px;
+        min-width: 360px;
     }
     .title--icon{
        font-size: 20px;
@@ -462,4 +472,4 @@ body{
     }
     
 }
-}
+}}
